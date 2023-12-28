@@ -11,3 +11,36 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 } */
+
+@import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
+
+body{
+  font-family: 'Sora', sans-serif;
+}
+
+.item-button button {
+  width: 160px;
+  margin-top: 20px;
+  background-color: rgb(34, 78, 9);
+  color: white;
+  /* Tambahkan style untuk efek hover */
+  transition: background-color 0.3s; /* Animasi perubahan warna latar belakang */
+}
+
+.item-button button:hover {
+  background-color: white;
+  color: rgb(34, 78, 9); /* Ganti warna teks kembali saat dihover */
+}
+
+.spinner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+}
+
+.spinner-border {
+  height: 100px;
+  width: 100px;
+}
