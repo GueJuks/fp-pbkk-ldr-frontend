@@ -44,3 +44,52 @@ body{
   height: 100px;
   width: 100px;
 }
+
+.category {
+  border: 3px solid;
+  margin-right: 10px;
+  padding: 5px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.category img {
+  margin-left: 10px;
+}
+
+.category-active{
+  border: 2px solid;
+  background-color: red;
+}
+
+/* Register */
+.register {
+  display: flex;
+  border: 10px solid red;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+
+.register input{
+  width: 400px;
+}
+
+.register-form {
+  background-color: yellow;
+  padding: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.register-form h1 {
+  text-align: center;
+  background-color: blue;
+  color: white;
+  padding: 10px;
+}
+
+.resgiter-form h3 {
+  color: rgb(2, 2, 113);
+  text-align: center;
+}
